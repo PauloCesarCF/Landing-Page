@@ -47,7 +47,6 @@
 .form{
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: gray;
   padding: 20px;
   border: 1px solid black;
@@ -65,11 +64,19 @@
 }
 
 .form input{
-  width: 93%;
+  width: 97%;
   padding: 4px;
+  margin: 10px 0px;
   border: 1px solid black;
   border-radius: 4px;
   font-size: 1rem;
+}
+
+.interest{
+  width: 99%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px
 }
 
 .form .input-btn-form{
@@ -80,7 +87,7 @@
   transition: .3s;
 }
 
-.form .input-btn:hover{
+.form .input-btn-form:hover{
   background-color: white;
   color: purple
 }
@@ -123,7 +130,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px 10px;
-  height: 50vh;
 }
 
 .local{
@@ -132,6 +138,19 @@
   color: white;
   padding: 40px;
   font-size: 25px;
+  display: flex;
+  justify-content: center
+}
+
+.fa-solid{
+  color: purple;
+  font-size: 70px;
+}
+
+.endereco{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
 }
 
 .localEmphasis{
@@ -238,7 +257,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  padding: 70px 0px
 }
 
 .like h1{
@@ -248,7 +267,6 @@
 }
 
 .like .input-btn-like{
-  width: 30vw;
   padding: 10px;
   background-color: purple;
   color: white;
@@ -284,12 +302,11 @@ footer .phrase{
   .form{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: gray;
     padding: 20px;
     border: 1px solid black;
     border-radius: 6px;
-    width: 85%
+    width: auto
   }
 
   .main{
@@ -303,14 +320,17 @@ footer .phrase{
 
   .localization{
     display: block;
-    height: 80vh
   }
   .local{
-    width: 85%;
+    width: 100%;
     text-align: center;
     color: white;
-    padding: 40px;
+    padding: 0px;
     font-size: 25px;
+    margin-bottom: 60px;
+  }
+  .endereco{
+    margin-left: 20px
   }
   .localEmphasis{
     width: 85%;
@@ -322,6 +342,11 @@ footer .phrase{
   }
   .titleKnowingEnvironments img{
     width: 100%
+  }
+  .item img{
+    width: 70%;
+    height: 300px;
+    border-radius: 50%
   }
   .titleKnowingEnvironments h1{
     margin: 0px;
@@ -352,33 +377,15 @@ footer .phrase{
   .objects img{
     width: 100%
   }
-  .lisObject{
-    margin-left: 0px
+  .lisObjects{
+    margin-left: 0px;
   }
   .lisObjects ul{
-    margin-left: 0px;
+    margin-left: 25px;
     font-size: 25px
   }
 
-  .like .input-btn-like{
-  width: 50vw;
-}
-}
-
-@media (max-width: 425px){
-  .localization{
-    height: 150vh
-  }
-  .like{
-    height: 70vh;
-  }
-}
-
-@media (max-width: 325px){
-  .localization{
-    height: 200% !important
-  }
-  .like{
-    height: 70vh;
+  .like h1{
+    font-size: 25px;
   }
 }

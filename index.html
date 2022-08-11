@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/f8f383386e.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/app.js" defer></script>
   <title>Landing Page</title>
 </head>
 <body>
@@ -28,11 +31,15 @@
       <input type="number" name="" id="" placeholder="Seu numero do whatsApp">
 
       <label for="mainInterss">Principal interesse</label>
-      <select name="" id="">
-        <option value=""></option>
+      <select name="interest" class="interest">
+        <option value="" disabled selected>SELECIONAR</option>
+        <option value="apartment">Apartamento</option>
+        <option value="house">Casa</option>
+        <option value="garden">Jardim</option>
+        <option value="others">Outros</option>
       </select>
 
-      <input type="button" value="QUERO ME INSCREVER" class="input-btn-form">
+      <input type="submit" value="QUERO ME INSCREVER" class="input-btn-form">
     </form>
   </main>
 
@@ -62,9 +69,12 @@
   <section class="localization">
     
     <div class="local">
-      <p>Rua do evento, 1333</p>
-      <p>Bairro</p>
-      <p>Abertura: 14h</p>
+    <i class="fa-solid fa-location-dot"></i>
+      <div class="endereco">
+        <p>Rua do evento, 1333</p>
+        <p>Bairro</p>
+        <p>Abertura: 14h</p>
+      </div>
     </div>
 
     <div class="localEmphasis">
