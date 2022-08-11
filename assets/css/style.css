@@ -1,0 +1,384 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main */
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../img/hrz-5.jpg");
+  background-position: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+/* Convite */
+
+.invitation{
+  display: flex;;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+.invitation h1{
+  color: purple;
+  margin: 30px 0px;
+  font-size: 4rem
+}
+
+.invitation p, small{
+  color: white;
+  font-size: 2rem
+}
+
+.invitation .date{
+  color: purple;
+  margin: 20px 0px;
+  font-size: 1rem
+}
+
+/* Formulario */
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 38%;
+}
+
+.form h1{
+  font-size: 2rem;
+}
+
+.form label{
+  align-items: left !important;
+  margin: 5px 0px;
+}
+
+.form input{
+  width: 93%;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form .input-btn-form{
+  background-color: purple;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.form .input-btn:hover{
+  background-color: white;
+  color: purple
+}
+
+/* Seão aprender */
+
+.learn .learn-text{
+  background-color: gray;
+  text-align: center;
+  padding: 30px;
+}
+
+.itemsFlex{
+  display: flex;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.item img{
+  width: 70%;
+  height: 70%;
+  border-radius: 50%
+}
+
+/* Localização */
+
+.localization{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../img/hrz-4.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px;
+  height: 50vh;
+}
+
+.local{
+  width: 50%;
+  text-align: center;
+  color: white;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.localEmphasis{
+  width: 50%;
+  margin: 40px;
+  font-weight: bolder;
+}
+
+.localEmphasis h1{
+  color: purple;
+  font-size: 2rem;
+  margin: 20px 0px
+}
+
+.localEmphasis p{
+  color: white;
+  font-size: 27px
+}
+
+/* conhecendor o local */
+
+.knowingEnvironments{
+  margin-top: 50px;
+  padding: 20px
+}
+
+.titleKnowingEnvironments{
+  display: flex;
+}
+
+.titleKnowingEnvironments h1{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  font-size: 4rem
+}
+
+.titleKnowingEnvironments img{
+  width: 50%;
+  height: 70%;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px
+}
+
+.listDetails{
+  margin-top: 30px;
+}
+
+.details h2{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem
+}
+
+.details ul{
+  margin-left: 70px;
+  font-size: 25px
+}
+
+.details img{
+  width: 50%;
+  height: 70%;
+}
+
+.objects{
+  margin-top: 50px;
+  display: flex
+}
+
+.objects img{
+  width: 50%;
+  height: 70%;
+}
+
+.lisObjects{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column
+}
+
+.lisObjects h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem
+}
+
+.lisObjects ul{
+  margin-left: 20px;
+  font-size: 25px
+}
+
+/*  */
+
+.like{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../img/hrz-5.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.like h1{
+  color: white;
+  margin: 20px;
+  font-size: 2rem
+}
+
+.like .input-btn-like{
+  width: 30vw;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: 4px
+}
+
+.like .input-btn-like:hover{
+  background-color: white;
+  color: purple;
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+  margin: 30px 0px;
+  color: gray
+}
+
+footer h1{
+  margin: 20px 0px
+}
+
+footer .phrase{
+  margin: 20px 0px
+}
+
+@media (max-width: 800px){
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 85%
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column
+  }
+
+  .itemsFlex{
+    flex-direction: column
+  }
+
+  .localization{
+    display: block;
+    height: 80vh
+  }
+  .local{
+    width: 85%;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 25px;
+  }
+  .localEmphasis{
+    width: 85%;
+    margin: 0px 40px;
+  }
+
+  .titleKnowingEnvironments{
+    flex-direction: column
+  }
+  .titleKnowingEnvironments img{
+    width: 100%
+  }
+  .titleKnowingEnvironments h1{
+    margin: 0px;
+    font-size: 50px
+  }
+
+  .details{
+    flex-direction: column;
+    margin-top: 20px
+  }
+  .details h2{
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 2rem
+  }
+  .details ul{
+    margin-left: 20px;
+    font-size: 25px
+  }
+  .details img{
+    width: 100%
+  }
+
+  .objects{
+    flex-direction: column
+  }
+  .objects img{
+    width: 100%
+  }
+  .lisObject{
+    margin-left: 0px
+  }
+  .lisObjects ul{
+    margin-left: 0px;
+    font-size: 25px
+  }
+
+  .like .input-btn-like{
+  width: 50vw;
+}
+}
+
+@media (max-width: 425px){
+  .localization{
+    height: 150vh
+  }
+  .like{
+    height: 70vh;
+  }
+}
+
+@media (max-width: 325px){
+  .localization{
+    height: 200% !important
+  }
+  .like{
+    height: 70vh;
+  }
+}

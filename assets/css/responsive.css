@@ -1,0 +1,74 @@
+
+@media (max-width: 800px){
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 85vw
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column
+  }
+
+  .itemsFlex{
+    flex-direction: column
+  }
+
+  .localization{
+    display: block;
+    height: 100vh
+  }
+
+  .titleKnowingEnvironments{
+    flex-direction: column
+  }
+  .titleKnowingEnvironments img{
+    width: 100%
+  }
+  .titleKnowingEnvironments h1{
+    margin: 0px;
+    font-size: 50px
+  }
+
+  .details{
+    flex-direction: column;
+    margin-top: 20px
+  }
+  .details h2{
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 2rem
+  }
+  .details ul{
+    margin-left: 20px;
+    font-size: 25px
+  }
+  .details img{
+    width: 100%
+  }
+
+  .objects{
+    flex-direction: column
+  }
+  .objects img{
+    width: 100%
+  }
+  .lisObject{
+    margin-left: 0px
+  }
+  .lisObjects ul{
+    margin-left: 0px;
+    font-size: 25px
+  }
+
+  .like .input-btn-like{
+    width: 50vw;
+  }
+}
