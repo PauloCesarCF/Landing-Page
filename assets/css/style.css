@@ -298,7 +298,101 @@ footer .phrase{
   margin: 20px 0px
 }
 
-@media (max-width: 800px){
+/* Responsividade */
+
+@media only screen and (min-width : 320px) and (max-width: 400px) {
+  .item img{
+    border-radius: 50%;
+    width: 70%
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: auto
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column
+  }
+
+  .itemsFlex{
+    flex-direction: column
+  }
+
+  .localization{
+    display: block;
+  }
+  .local{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    font-size: 25px;
+    margin-bottom: 60px;
+  }
+  .endereco{
+    margin-left: 20px
+  }
+  .localEmphasis{
+    width: 85%;
+    margin: 0px 40px;
+  }
+
+  .titleKnowingEnvironments{
+    flex-direction: column
+  }
+  .titleKnowingEnvironments img{
+    width: 100%
+  }
+  .titleKnowingEnvironments h1{
+    margin: 0px;
+    font-size: 50px
+  }
+
+  .details{
+    flex-direction: column;
+    margin-top: 20px
+  }
+  .details h2{
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 2rem
+  }
+  .details ul{
+    margin-left: 20px;
+    font-size: 25px
+  }
+  .details img{
+    width: 100%
+  }
+
+  .objects{
+    flex-direction: column
+  }
+  .objects img{
+    width: 100%
+  }
+  .lisObjects{
+    margin-left: 0px;
+  }
+  .lisObjects ul{
+    margin-left: 25px;
+    font-size: 25px
+  }
+
+  .like h1{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width : 768px) and ((min-width: 401px)) {
   .form{
     display: flex;
     flex-direction: column;
@@ -344,7 +438,7 @@ footer .phrase{
     width: 100%
   }
   .item img{
-    width: 70%;
+    width: 48%;
     height: 300px;
     border-radius: 50%
   }
@@ -388,4 +482,12 @@ footer .phrase{
   .like h1{
     font-size: 25px;
   }
+}
+
+@media only screen and (max-width : 1200px) {
+   /* Styles here */
+}
+
+@media only screen and (max-width : 1600px) {
+   /* Styles here */
 }
